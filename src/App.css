@@ -1,0 +1,14 @@
+.calculator-container {
+  display:block;
+  background-color: lightgrey;
+  width: 30vw;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.numbers-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+
+}
