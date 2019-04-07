@@ -1,14 +1,17 @@
 .calculator-container {
   display:block;
   background-color: lightgrey;
-  width: 30vw;
+  width: 25vw;
   height: 50vh;
   border: 2px solid black;
   border-radius: 10px;
 }
 
-.numbers-container {
+.buttons-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr
-
+  grid-template-columns: repeat(4, 25%);
+  grid-auto-rows: 25%;
+  justify-content: space-between;
+  align-content: space-between;
+  grid-auto-flow: row;
 }

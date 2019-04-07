@@ -4,7 +4,10 @@ import './index.css'
 class Button extends Component {
   render(){
     return(
-      <button className="button-container" onClick={(num)=>this.props.handleClick(this.props.value)}>{this.props.value}</button>
+      <button
+        className={this.props.class}
+        onClick={(num)=>this.props.handleClick(this.props.value)}>{this.props.value}
+      </button>
     )
   }
 }
